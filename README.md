@@ -15,7 +15,3 @@ Tableau SE向けに、毎朝8時（平日）担当顧客とデータ分析/AI業
 - **一覧・履歴を見る**: GitHub PagesのURLをスマホのブラウザで開く
 - **深掘りしたい時**: Claudeアプリの「Code」タブからこのリポジトリを対象にClaude Code on the webセッションを開き、「TDKの詳細教えて」のように質問する
 - **ウォッチ対象を変えたい時**: 同様に会話で「TDKは外してキオクシア追加して」のように伝えると `config.yaml` が更新される
-
-## セットアップ状況
-
-詳細は `/Users/shimakaho/.claude/plans/piped-bubbling-sparrow.md` の実装プランを参照。
