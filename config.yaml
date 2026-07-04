@@ -1,0 +1,52 @@
+# ニュース配信アプリ ウォッチ設定
+#
+# このファイルは会話でClaudeに伝えるだけで編集してもらえます。
+# 例: 「TDKは外してキオクシアを追加して」「化学業界は減らして半導体を厚くして」
+# 直接このファイルを編集してコミットしても構いません。
+
+companies:
+  - TDK
+  - LIXIL
+  - アドバンテスト
+  - ルネサス
+  - JMC
+  - トプコン
+
+industries:
+  - 半導体
+  - 化学
+  - 電子部品
+
+ai_data_watch:
+  bi_competitors:
+    - Power BI
+    - Looker
+    - Qlik
+  data_platforms:
+    - Snowflake
+    - Databricks
+  ai_vendors:
+    - Anthropic
+    - Google
+    - AWS
+    - OpenAI
+
+# 自社(Tableau/Salesforce)の情報は対象外
+excluded_own_company: true
+
+source_priority:
+  - 無料で取得できる一般ニュース記事
+  - 顧客企業の公式IR・プレスリリース
+  - 業界専門メディア
+
+exclusions:
+  - 株価の日次変動のみのニュース
+  - 広告的・宣伝色の強いプレスリリース
+
+delivery:
+  schedule: weekdays_8am_jst
+  monday_covers_weekend: true
+  large_count: 5
+  simple_count: 5
+  large_criteria: インパクトの大きさと情報量の多さの両方を満たすもの。インパクトが大きくても情報量が少ない記事は簡易側に回す
+  reading_time_minutes: 10

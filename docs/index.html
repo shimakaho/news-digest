@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ニュースダイジェスト</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ニュースダイジェスト</h1>
+    <p id="last-updated" class="muted"></p>
+  </header>
+
+  <section id="filters">
+    <div class="filter-group">
+      <label for="company-filter">企業</label>
+      <select id="company-filter"><option value="">すべて</option></select>
+    </div>
+    <div class="filter-group">
+      <label for="category-filter">カテゴリ</label>
+      <select id="category-filter">
+        <option value="">すべて</option>
+        <option value="customer">顧客ニュース</option>
+        <option value="industry">業界ニュース</option>
+        <option value="ai_data">AI・データ業界</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="date-filter">日付</label>
+      <select id="date-filter"><option value="">すべて</option></select>
+    </div>
+    <div class="filter-group">
+      <label><input type="checkbox" id="starred-only"> ★のみ表示</label>
+    </div>
+  </section>
+
+  <main id="items"></main>
+
+  <p id="empty-state" class="muted" style="display:none;">該当する記事がありません。</p>
+
+  <script src="app.js"></script>
+</body>
+</html>

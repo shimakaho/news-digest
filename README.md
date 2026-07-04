@@ -1,0 +1,21 @@
+# ニュース配信アプリ
+
+Tableau SE向けに、毎朝8時（平日）担当顧客とデータ分析/AI業界のニュースをまとめて届ける個人用ツール。
+
+## 構成
+
+- `config.yaml`: ウォッチ対象企業・業界・情報源優先順位・除外条件。会話でClaudeに伝えるだけで編集できる
+- `data/`: 日次ダイジェストのデータ（詳細は `data/README.md`）
+- `docs/`: GitHub Pagesで配信するWeb UI（一覧・フィルタ・★重要マーク）
+- `ROUTINE_PROMPT.md`: 毎朝のニュース収集を行うRoutineのプロンプト正本
+
+## 使い方
+
+- **毎朝の配信**: Routineが平日8時(JST)に自動実行され、`data/`に新しいダイジェストを追加し、ntfy経由でスマホに通知する
+- **一覧・履歴を見る**: GitHub PagesのURLをスマホのブラウザで開く
+- **深掘りしたい時**: Claudeアプリの「Code」タブからこのリポジトリを対象にClaude Code on the webセッションを開き、「TDKの詳細教えて」のように質問する
+- **ウォッチ対象を変えたい時**: 同様に会話で「TDKは外してキオクシア追加して」のように伝えると `config.yaml` が更新される
+
+## セットアップ状況
+
+詳細は `/Users/shimakaho/.claude/plans/piped-bubbling-sparrow.md` の実装プランを参照。
