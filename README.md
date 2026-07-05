@@ -32,8 +32,8 @@ Routine（claude.ai/code/routines・クラウド・平日8時JST）
 - **ウォッチ対象を変えたい時**: 書き込み権限を持つローカルのClaude Code（または手元のgit操作）で
   `config.yaml` を編集してpushする。会話で「TDKは外してキオクシア追加して」のように伝えれば更新できる
 
-## セットアップ状況・課題
+## セットアップ状況
 
-- claude.ai と GitHub の連携は「認可(OAuth)」はできているが、リポジトリへの「インストール(書き込み権限)」が
-  行われておらず、クラウドRoutineからのpushが `403 Resource not accessible by integration` になる。
-  この根本解決にはAnthropicサポートへの問い合わせが必要。現アーキテクチャはこれを回避する設計。
+- claude.ai と GitHub の連携は完了済み。GitHub Settings > Applications > Claude で
+  `shimakaho/news-digest` への Read/Write アクセスが設定されている。
+- `config.yaml` の変更はこのセッション（Claude Code on the web）から直接pushできる。
