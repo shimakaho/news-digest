@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-05",
+  "covers_weekend": false,
+  "items": [
+    {
+      "id": "2026-07-05-01",
+      "tier": "large",
+      "category": "customer",
+      "company": "アドバンテスト",
+      "headline": "アドバンテスト、AI向け半導体テスタ需要で2026年3月期は増収増益44.7%増",
+      "summary": "アドバンテストの2026年3月期(2025年4月〜2026年3月)の連結業績は、売上高1兆1286億円(前期比44.7%増)、営業利益4991億円(同118.8%増)となり、いずれも過去最高を記録した。AI関連の高性能半導体向けテスタ需要の急拡大が業績を牽引した。2027年3月期通期の連結業績予想は売上高1兆4200億円、営業利益6275億円を見込む。2027年3月期第1四半期決算発表は7月29日、定時株主総会は7月31日に予定されている。",
+      "source_name": "アドバンテスト IR(公式)",
+      "source_url": "https://www.advantest.com/ja/investors/financial-highlights/",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-02",
+      "tier": "large",
+      "category": "customer",
+      "company": "ルネサス",
+      "headline": "ルネサス、データセンター向け好調で1〜6月期営業利益率31%に上昇",
+      "summary": "ルネサスエレクトロニクスの2026年1〜6月期(国際会計基準・非GAAPベース)の連結営業利益率は31%となり、前年同期から4ポイント上昇する見通し。データセンター向け需要の好調が業績を押し上げている。同社の2026年12月期第1四半期(1〜3月)は連結最終利益が前年同期比2.6倍の681億円に急拡大、売上高も23%増と3期ぶりに過去最高を更新した。AIサーバー投資の拡大が半導体需要を牽引する構図が続く。",
+      "source_name": "日本経済新聞",
+      "source_url": "https://www.nikkei.com/article/DGXZQOUB238090T20C26A4000000/",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-03",
+      "tier": "large",
+      "category": "customer",
+      "company": "トプコン",
+      "headline": "トプコン、KKRによるTOB成立で上場廃止・非公開化が完了",
+      "summary": "米投資ファンドKKR傘下のTK株式会社が実施していたトプコンへの公開買付け(TOB)が2025年9月に成立し、ファンドの保有比率は80%に達した。その後、株式併合によるスクイーズアウト手続きを経て、トプコン株式は2025年12月2日付で東京証券取引所への上場を廃止し、同年12月4日に非公開化が完了、現経営陣は同日付で退任した。測量・精密機器の大手であるトプコンがKKR傘下で非上場企業として再出発した点は、業界再編の一例として注目される。まだ本デジェストで取り上げていなかった重要な既往ニュースのため、今回まとめて共有する。",
+      "source_name": "日本経済新聞",
+      "source_url": "https://www.nikkei.com/article/DGXZQOUC116GM0R10C25A9000000/",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-04",
+      "tier": "large",
+      "category": "industry",
+      "company": null,
+      "headline": "半導体メモリ価格が急騰、DRAM最大63%・NAND最大75%の値上げ",
+      "summary": "AIデータセンター向け需要の急増を背景に、DRAM・NAND型フラッシュメモリの価格が急騰している。分析によればDRAMは最大63%、NANDは最大75%の値上げが行われている。メモリ大手各社は先端プロセスや新規生産能力の多くをAIサーバー向けに振り分けており、TrendForceは2026年中に明確な供給不足が発生すると予測、本格的な生産能力拡張は2027年後半〜2028年になる見通し。少なくとも2026年末まで、場合によっては2027年まで価格高騰が続くとの見方が広がっており、スマートフォンメーカーなど最終製品メーカーは搭載DRAM容量の削減やSSDの低コスト品への置き換えを進めている。半導体・電子部品を扱う顧客企業のコスト構造にも影響しうる動き。",
+      "source_name": "ITmedia ビジネス2.0",
+      "source_url": "https://blogs.itmedia.co.jp/business20/2026/04/dram63nand75.html",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-05",
+      "tier": "large",
+      "category": "ai_data",
+      "company": null,
+      "headline": "Anthropic、GoogleとBroadcomとの提携拡大で複数GW規模の次世代コンピュートを確保",
+      "summary": "AnthropicはGoogle Cloud・Broadcomとの提携を拡大し、複数ギガワット規模の次世代AI向けコンピュート容量を確保すると発表した。Amazonを主要クラウド・トレーニングパートナーとしつつGoogle CloudやMicrosoft Azureとの関係も深めており、Claudeは世界3大クラウド(AWS Bedrock・Google Vertex AI・Azure Foundry)全てで利用可能な唯一のフロンティアAIモデルとなっている。Anthropicの年間換算収益(run-rate revenue)は2026年に300億ドルを超える規模まで急拡大し、2025年末の約90億ドルから大幅に伸びた。BI・データ分析各社がAIエージェント機能を競う中、基盤モデル側の投資規模拡大は今後の競争環境に影響を与えうる。",
+      "source_name": "Anthropic公式ニュース",
+      "source_url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "original_language": "en"
+    },
+    {
+      "id": "2026-07-05-06",
+      "tier": "simple",
+      "category": "customer",
+      "company": "TDK",
+      "headline": "TDK、2026年3月期業績を上方修正 純利益8%増に",
+      "summary": "TDKは2026年3月期(2025年4月〜2026年3月)の業績予想を上方修正し、純利益は前期比8%増となる見通し。米国の関税影響が想定より軽微だったことが要因。データセンター・AI関連向けを含むエネルギー応用製品セグメントが売上の54.7%を占め、16.5%増収と業績を牽引している。",
+      "source_name": "日本経済新聞",
+      "source_url": "https://www.nikkei.com/article/DGXZQOTG287JC0Y5A021C2000000/",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-07",
+      "tier": "simple",
+      "category": "customer",
+      "company": "LIXIL",
+      "headline": "LIXIL、2026年3月期は事業利益23%増 リフォーム需要と海外水回り事業が好調",
+      "summary": "LIXILの2026年3月期(IFRS基準)通期決算で、事業利益は前期比23%増となった。国内では新築需要の減少をリフォーム需要の拡大が補い、海外水回り事業では欧州・IMEA(インド・中東・アフリカ)地域の売上増が寄与した。循環型低炭素アルミ「PremiAL」など資源循環素材の展開も強化している。",
+      "source_name": "LIXIL Newsroom(公式)",
+      "source_url": "https://newsroom.lixil.com/ja/20260430_q4",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-08",
+      "tier": "simple",
+      "category": "customer",
+      "company": "JMC",
+      "headline": "JMC、アルケリスと業務提携",
+      "summary": "3Dプリンター・鋳造・産業用CTを手がけるJMCは2026年2月、アルケリス株式会社との業務提携を発表した。同社の3Dプリンター事業は造形機のバリエーション拡充と人員増強により提案力を強化し、事業セグメントで唯一増収増益を達成している。",
+      "source_name": "JMC公式サイト",
+      "source_url": "https://www.jmc-rp.co.jp/topic/",
+      "original_language": "ja"
+    },
+    {
+      "id": "2026-07-05-09",
+      "tier": "simple",
+      "category": "ai_data",
+      "company": null,
+      "headline": "Qlik、新CEOにSaugata Saha氏 7月31日就任",
+      "summary": "BI競合のQlikは、S&P GlobalでMarket Intelligence事業を率い同社初のチーフ・エンタープライズ・データ・オフィサーも務めたSaugata Saha氏を新社長兼CEOに起用し、7月31日付で就任すると発表した。同時期にTableau(Salesforce)側も経営体制を見直すなど、BI業界全体でAIシフトを背景としたトップ人事の動きが相次いでいる。",
+      "source_name": "TechTarget",
+      "source_url": "https://www.techtarget.com/searchbusinessanalytics/news/366645161/Tableau-Qlik-in-flux-What-it-means-for-BI-users-amid-AI-shift",
+      "original_language": "en"
+    },
+    {
+      "id": "2026-07-05-10",
+      "tier": "simple",
+      "category": "ai_data",
+      "company": null,
+      "headline": "Snowflake・Databricksが夏の年次カンファレンスでエージェント型AI機能を続々発表",
+      "summary": "Snowflakeは6月開催の「Snowflake Summit 26」で「Agentic Enterprise」を掲げ、Icebergとの相互運用性強化やHorizon Catalogのコンテキストレイヤー構築など26以上の新機能を発表した。DatabricksもData + AI Summit 2026で「Genie One」「Agent Bricks」などエージェント型AI・データ基盤機能を相次いで公表し、データ基盤大手2社がAIエージェント対応を競う構図が鮮明になっている。",
+      "source_name": "Flexera Blog",
+      "source_url": "https://www.flexera.com/blog/perspectives/snowflake-summit-2026/",
+      "original_language": "en"
+    }
+  ]
+}
